@@ -49,3 +49,5 @@ public class Drawing extends Canvas {
         Squ.draw(g);
     }
 }
+
+test15;
