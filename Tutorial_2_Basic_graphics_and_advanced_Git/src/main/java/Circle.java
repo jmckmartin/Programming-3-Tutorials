@@ -1,20 +1,17 @@
 import java.awt.*;
 
-public class Circle {
+public class Circle extends Shape {
     // Fields
-    private int rad;
-    private Point pos;
-    private Color col;
-    //private int unassigned;
+    protected int rad;
 
 
-    public Circle(Point initPos, Color col, int radius){ // The constructor
+    public Circle(Point initPos, Color col, int radius){
+        super(initPos, col); // The constructor
         // Initialize fields
         rad=radius;
-        pos=initPos;
-        this.col=col;
     }
 
+    @Override
     public void draw(Graphics g) {
         g.setColor(col);
         g.fillOval(pos.x,pos.y,rad, rad);
