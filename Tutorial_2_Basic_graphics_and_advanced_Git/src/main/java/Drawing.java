@@ -2,6 +2,8 @@ import Shapes.Circle;
 import Shapes.Rect;
 import Shapes.Square;
 
+test;
+
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
