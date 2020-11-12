@@ -1,6 +1,10 @@
+package Shapes;
+
+import Shapes.Rect;
+
 import java.awt.*;
 
-public class Square extends Rect{
+public class Square extends Rect {
 
     protected int length; // Side length which will be used for both width and height
 
