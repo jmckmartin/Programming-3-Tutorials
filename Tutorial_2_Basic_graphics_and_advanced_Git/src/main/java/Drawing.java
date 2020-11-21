@@ -27,8 +27,8 @@ public class Drawing extends Canvas {
         Point p=new Point(200,200);
         Color c=new Color(0x992266);
         Cir = new Circle(p,c,25);
-        Rec = new Rect(p,c,120,5);
-        Squ = new Square(p,c,100);
+        Rec = new Rect(p,c,140,5);
+        Squ = new Square(p,c,10);
         f = new Frame("My window");
         f.add(this);
         f.setLayout(null);
